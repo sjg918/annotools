@@ -175,6 +175,8 @@ if __name__ == '__main__':
             else:
                 points = []
                 cur_point_idx[0] = -1
+
+            print(cur_image_idx)
             continue
         elif key == 115: # s
             cur_point_idx[0] = cur_point_idx[0] - 1
@@ -201,6 +203,7 @@ if __name__ == '__main__':
                 points = []
                 cur_point_idx[0] = -1
 
+            print(cur_image_idx)
             continue
         elif key == 27:
             break
